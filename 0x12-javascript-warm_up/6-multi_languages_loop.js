@@ -5,6 +5,6 @@ const textArray = [
   'JavaScript is amazing'
 ];
 
-for (let i = 0; i < texts.length; i++) {
+for (let i = 0; i < textArray.length; i++) {
   console.log(textArray[i]);
 }
