@@ -6,7 +6,7 @@
  * @returns The factorial of the number.
  */
 function fact (number) {
-  if (number.isNaN(number) || (number <= 0)) {
+  if (Number.isNaN(number) || (number <= 0)) {
     return 1;
   } else {
     return number * fact(number - 1);
