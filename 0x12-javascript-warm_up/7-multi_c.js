@@ -1,4 +1,4 @@
- #!/usr/bin/node
+#!/usr/bin/node
 /**
  * tPrint - Print a string t times
  * @param {Number} t - The number of times to print the string.
@@ -15,4 +15,3 @@ function tPrint (t, str) {
 }
 
 tPrint(Number.parseInt(process.argv[2]), 'C is fun');
-
